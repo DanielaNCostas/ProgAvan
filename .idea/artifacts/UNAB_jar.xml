@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="UNAB:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UNAB_jar</output-path>
+    <root id="root">
+      <element id="archive" name="UNAB.jar">
+        <element id="module-output" name="UNAB" />
+      </element>
+    </root>
+  </artifact>
+</component>
