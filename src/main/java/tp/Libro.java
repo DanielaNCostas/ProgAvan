@@ -12,7 +12,7 @@ public class Libro {
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
         this.autor = autor;
-        this.calificaciones = new ArrayList<>(); // Lista de calificaciones realizadas para el libro
+        this.calificaciones = new ArrayList<>(); // Lista de calificaciones realizadas para un libro
     }
 
     public String getTitulo() {
@@ -47,7 +47,7 @@ public class Libro {
         String comentarioAgregado = calificacion.getComentario();
         int puntuacionAgregada = calificacion.getPuntuacion();
         String puntuacionAgregadaEscrita = String.valueOf(puntuacionAgregada);
-        String calif = puntuacionAgregadaEscrita + " - " + comentarioAgregado + "//";
+        String calif = "¨" + puntuacionAgregadaEscrita + " - " + comentarioAgregado + "¨";
         calificaciones.add(calif); // Agregar la calificación a la lista de calificaciones del libro
     }
 

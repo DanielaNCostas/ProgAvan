@@ -27,7 +27,7 @@ public class Biblioteca{
     }
 
     public static void quitarLibroDelCatalogo(String tituloBuscado){
-
+        //este método está asociado al administrador y permite borrar un libro del catálogo
         boolean existe = titulosDisponibles.contains(tituloBuscado);
         if (existe==true) {
             int index = titulosDisponibles.indexOf(tituloBuscado);
@@ -40,6 +40,7 @@ public class Biblioteca{
     }
 
     public static void agregarLibroAlCatalogo(Libro libro, int cantidad){
+        //este método está asociado al administrador y permite agregar un libro al catálogo
         libro.setCantidad(cantidad);
         librosDisponibles.add(libro);
         String titulo = libro.getTitulo();
@@ -47,8 +48,8 @@ public class Biblioteca{
     }
 
     public static void getTitulosDisponibles() {
+        //este método devuelve una lista con los libros del catálogo
         librosEnCatalogo();
-        //Collections.sort(titulosDisponibles);
         System.out.println(titulosDisponibles);
     }
 }

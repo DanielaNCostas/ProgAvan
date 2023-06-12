@@ -41,7 +41,7 @@ public class Administrador extends Usuario {
             System.out.println("Se ha agregado " + nombreLibro + " al catálogo de la biblioteca");
             //esta opcion permite crear un nuevo libro y declarar la cantidad de ejemplares disponibles
         } else if ("B".equalsIgnoreCase(userInput)) {
-            //Acá hay que agregar una manera de borrar libros. No se me ocurre como "llamar un libro" sin tener un catálogo de libros hechos
+            //Acá se permite al administrador eliminar uno de los libros del catálogo. El libro se borra de los titulos disponibles (no se muestra mas cuando pidan los titulos disponibles) y de el objeto "libro" de la lista de libros disponibles
             System.out.println("Ingrese el nombre del libro que quiere eliminar");
             String tituloBuscado = Menues.waitForUserInput();
             Biblioteca.quitarLibroDelCatalogo(tituloBuscado);
@@ -82,6 +82,7 @@ public class Administrador extends Usuario {
             getEmail();
         //si aprieta B devuelve su email
         } else if ("C".equalsIgnoreCase(userInput)) {
+            //si aprieta C deriva al método actualizarCatalogo
             while (shouldExecuteAnotherOperation(userInput)) {
                 actualizarCatalogo();
             }

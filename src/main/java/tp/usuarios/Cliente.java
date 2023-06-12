@@ -18,7 +18,8 @@ public class Cliente extends Usuario {
 
     public void reservar(Libro libro) {
         String titulo = libro.getTitulo();
-        librosReservados.add(titulo); // Agregar el nombre del libro reservado al historial de reservas del usuario (no agrega el libro en sí a la lista "librosReservados" sino solo el titulo, porque de otra manera al pedir el historial de reservas lo que devuelve la consola es un objeto libro que no se entiende, o sea un ID, que no le interesaría para nada al usuario que está pidiendo su historial de reservas)
+        librosReservados.add(titulo);
+        //Agregar el nombre del libro reservado al historial de reservas del usuario (no agrega el libro en sí a la lista "librosReservados" sino solo el titulo, porque de otra manera al pedir el historial de reservas lo que devuelve la consola es un objeto libro que no se entiende, o sea un ID, que no le interesaría para nada al usuario que está pidiendo su historial de reservas)
     }
 
     private List<String> getLibrosReservados() {
@@ -32,11 +33,6 @@ public class Cliente extends Usuario {
         //este metodo es el que devuelve el historial de reservas, es decir, los titulos de los titulos que ha reservado. Esta lista no se ve afectada al devolver un libro (el titulo queda en el historial)
     }
 
-    /*private List<Reserva> getReservas() {
-        return reservas;
-        //esto lo definimos para poder usarlo en devolver()
-    }*/
-
     public void devolver() {
         Reserva ultimaReserva = reservas.get(reservas.size() -1 );//pido el ultimo elemento de la lista de reservas
         ultimaReserva.devolver(); // Llamar al método devolver de la reserva
@@ -47,8 +43,7 @@ public class Cliente extends Usuario {
         Reserva ultimaReserva = reservas.get(reservas.size() -1 );
         Libro libro = ultimaReserva.getLibro();
         libro.calificar(calificacion);
-        //ultimaReserva.calificar(calificacion);
-        //permite calificar el ultimo libro reservado. Esto hay que mirarlo, todavía no pude hacerlo correr
+        //permite calificar el ultimo libro reservado.
     }
 
     public String ejecutarOpcion3() {
@@ -106,7 +101,7 @@ public class Cliente extends Usuario {
                 System.out.println("El título ingresado no existe en el catálogo");
             }
         } else if ("E".equalsIgnoreCase(userInput)) {
-            //esta opcion permite devolver el ultimo libro reservado.
+            //esta opcion permite devolver el ultimo libro reservado. Se borra la ultima reserva de la lista reservas
             devolver();
             System.out.println("--");
             System.out.println("Presione cualquier tecla para volver al menú.");

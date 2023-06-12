@@ -35,23 +35,4 @@ public class Reserva {
             cliente.reservar(libro);
         }
     }
-
-    /*
-    public void cancelar() {
-        //este método no supe en que usarlo.
-        if (estado == Estado.PRESTADO) {
-            estado = Estado.DISPONIBLE;
-            libro.devolver();
-        } else if (estado == Estado.RETRASO) {
-            estado = Estado.DISPONIBLE;
-            libro.devolver();
-        }
-        cliente.getReservas().remove(this.libro);
-    }*/
-
-    /*public void calificar(Calificacion calificacion) {
-        //para agregar una calificacion a un libro
-        libro.calificar(calificacion);
-        estado = Estado.DISPONIBLE;
-    }*/
 }
