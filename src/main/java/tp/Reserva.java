@@ -1,5 +1,7 @@
 package main.java.tp;
 
+import main.java.tp.usuarios.Cliente;
+
 // Clase Reserva que representa una reserva realizada por un usuario para un libro
 public class Reserva {
     private Cliente cliente;
@@ -9,7 +11,6 @@ public class Reserva {
     public Reserva(Libro libro) {
         this.libro = libro;
         this.estado = Estado.PRESTADO;
-        libro.prestar(); // Llamar al método prestar del libro al realizar la reserva
     }
 
     public Cliente getCliente() {
@@ -35,6 +36,7 @@ public class Reserva {
         }
     }
 
+    /*
     public void cancelar() {
         //este método no supe en que usarlo.
         if (estado == Estado.PRESTADO) {
@@ -45,11 +47,11 @@ public class Reserva {
             libro.devolver();
         }
         cliente.getReservas().remove(this.libro);
-    }
+    }*/
 
-    public void calificar(Calificacion calificacion) {
+    /*public void calificar(Calificacion calificacion) {
         //para agregar una calificacion a un libro
         libro.calificar(calificacion);
         estado = Estado.DISPONIBLE;
-    }
+    }*/
 }

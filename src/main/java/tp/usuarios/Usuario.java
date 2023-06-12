@@ -1,8 +1,8 @@
 package main.java.tp.usuarios;
 
 public class Usuario {
-    private String nombre;
-    private String email;
+    public String nombre;
+    public String email;
 
     Usuario(String nombre, String email) {
         this.nombre = nombre;

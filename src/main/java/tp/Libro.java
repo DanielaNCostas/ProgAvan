@@ -4,11 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Clase Libro que representa un libro en la biblioteca
-
 public class Libro {
     private final String titulo;
     private final String autor;
-    public final List<String> calificaciones;
+    private final List<String> calificaciones;
 
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
@@ -24,26 +23,14 @@ public class Libro {
         return autor;
     }
 
-    private int cantidad=1;
+    private int cantidad;
 
-    public int declararCantidad() {
-        //es un método que permite declarar la cantidad de ejemplares de un libro creado en el sistema
-        System.out.println("Ingrese la cantidad de ejemplares disponibles");
-        cantidad = Integer.parseInt(waitForUserInput());
-        return cantidad;
-    }
     public int getCantidad() {
-        //devuelve cantidad de ejemplares de un libro
-        System.out.println("--");
-        System.out.println("Hay " + cantidad + " ejemplares disponibles.");
         return cantidad;
     }
 
-    public List<String> getCalificaciones() {
-        //este método permite ver las calificaciones de un libro. No lo pude hacer correr porque quería emparejarlo con la opcion F (calificar) del menu del cliente.
-        System.out.println("--");
-        System.out.println("Estas son las calificaciones hechas, con puntuaciones del 1 al 5: ");
-        return calificaciones;
+    public void setCantidad(int numeroDeEjemplares) {
+        this.cantidad = numeroDeEjemplares;
     }
 
     public void prestar() {
@@ -57,11 +44,18 @@ public class Libro {
     }
 
     public void calificar(Calificacion calificacion) {
-        String coment = calificacion.getComentario();
-        int punt = calificacion.getPuntuacion();
-        String puntua = String.valueOf(punt);
-        String calif = coment + puntua;
-        System.out.println(calif);
+        String comentarioAgregado = calificacion.getComentario();
+        int puntuacionAgregada = calificacion.getPuntuacion();
+        String puntuacionAgregadaEscrita = String.valueOf(puntuacionAgregada);
+        String calif = puntuacionAgregadaEscrita + " - " + comentarioAgregado + "//";
         calificaciones.add(calif); // Agregar la calificación a la lista de calificaciones del libro
+    }
+
+    public void getCalificaciones() {
+        //este método permite ver las calificaciones de un libro.
+        System.out.println("--");
+        System.out.println("Estas son las calificaciones hechas, con puntuaciones del 1 al 5: ");
+        System.out.println("");
+        System.out.println(calificaciones);
     }
 }
