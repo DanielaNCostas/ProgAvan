@@ -12,13 +12,11 @@ public class Calificacion {
 
     public String getComentario() {
         //me devuelve solo el comentario de la calificación
-        System.out.println("");
         return comentario;
     }
 
     public int getPuntuacion() {
         //me devuelve solo la puntuacion de la calificación
-        System.out.println("");
         return puntuacion;
     }
 

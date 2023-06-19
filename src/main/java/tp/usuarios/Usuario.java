@@ -10,19 +10,11 @@ public class Usuario {
     }
 
     public String getNombre() {
-        System.out.println("--");
-        System.out.println("Presione cualquier tecla para volver al menú.");
-        System.out.println("");
-        System.out.println("Usted es " + this.nombre);
         return this.nombre;
         //devuelve el nombre del usuario (heredado a clientes y administradores)
     }
 
     public String getEmail() {
-        System.out.println("--");
-        System.out.println("Presione cualquier tecla para volver al menú.");
-        System.out.println("");
-        System.out.println("Su email es " + this.email);
         return this.email;
         //devuelve el email del usuario (heredado a clientes y administradores)
     }

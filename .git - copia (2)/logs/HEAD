@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 3135a3675c7df4a117aa0ac5c8c3380377d94f15 Daniela <dncostas@gmail.com> 1686515075 -0300	commit (initial): codigo que corre bien, falta organizarlo
+3135a3675c7df4a117aa0ac5c8c3380377d94f15 3135a3675c7df4a117aa0ac5c8c3380377d94f15 Daniela <dncostas@gmail.com> 1686516045 -0300	checkout: moving from master to feature/organizacion
+3135a3675c7df4a117aa0ac5c8c3380377d94f15 5f588c807c398e602f4cd0a6b1f382c1119de6c8 Daniela <dncostas@gmail.com> 1686517085 -0300	commit: voy organizando en otra rama feature/organizacion
+5f588c807c398e602f4cd0a6b1f382c1119de6c8 709a4ba607eb3e8517f546865e337bcd3c1a32b0 Daniela <dncostas@gmail.com> 1686539427 -0300	commit: ya funciona todo,creo
+709a4ba607eb3e8517f546865e337bcd3c1a32b0 709a4ba607eb3e8517f546865e337bcd3c1a32b0 Daniela <dncostas@gmail.com> 1686586542 -0300	checkout: moving from feature/organizacion to main
+709a4ba607eb3e8517f546865e337bcd3c1a32b0 709a4ba607eb3e8517f546865e337bcd3c1a32b0 Daniela <dncostas@gmail.com> 1686586683 -0300	checkout: moving from main to feature/organizacion
+709a4ba607eb3e8517f546865e337bcd3c1a32b0 660d4921f6553333ea48b6721774133c04d0db2a Daniela <dncostas@gmail.com> 1686586718 -0300	commit: todo funciona
+660d4921f6553333ea48b6721774133c04d0db2a 709a4ba607eb3e8517f546865e337bcd3c1a32b0 Daniela <dncostas@gmail.com> 1686586736 -0300	checkout: moving from feature/organizacion to main
+709a4ba607eb3e8517f546865e337bcd3c1a32b0 660d4921f6553333ea48b6721774133c04d0db2a Daniela <dncostas@gmail.com> 1686586780 -0300	checkout: moving from 709a4ba607eb3e8517f546865e337bcd3c1a32b0 to feature/organizacion
+660d4921f6553333ea48b6721774133c04d0db2a 709a4ba607eb3e8517f546865e337bcd3c1a32b0 Daniela <dncostas@gmail.com> 1686586908 -0300	checkout: moving from feature/organizacion to main
+709a4ba607eb3e8517f546865e337bcd3c1a32b0 660d4921f6553333ea48b6721774133c04d0db2a Daniela <dncostas@gmail.com> 1686586951 -0300	checkout: moving from 709a4ba607eb3e8517f546865e337bcd3c1a32b0 to feature/organizacion
+660d4921f6553333ea48b6721774133c04d0db2a 709a4ba607eb3e8517f546865e337bcd3c1a32b0 Daniela <dncostas@gmail.com> 1686586965 -0300	checkout: moving from feature/organizacion to main
+709a4ba607eb3e8517f546865e337bcd3c1a32b0 3135a3675c7df4a117aa0ac5c8c3380377d94f15 Daniela <dncostas@gmail.com> 1686586989 -0300	checkout: moving from 709a4ba607eb3e8517f546865e337bcd3c1a32b0 to master
+3135a3675c7df4a117aa0ac5c8c3380377d94f15 24fe5d5013c3867ee9d2b94557d40286bdebbebf Daniela <dncostas@gmail.com> 1686587021 -0300	pull: Fast-forward
+24fe5d5013c3867ee9d2b94557d40286bdebbebf db558224e32f9abba4b9b4bc80ab1f3c1cea45eb Daniela <dncostas@gmail.com> 1686587972 -0300	commit: todo funciona
+db558224e32f9abba4b9b4bc80ab1f3c1cea45eb db558224e32f9abba4b9b4bc80ab1f3c1cea45eb Daniela <dncostas@gmail.com> 1686778474 -0300	checkout: moving from master to feature/prueba

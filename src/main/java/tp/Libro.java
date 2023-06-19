@@ -8,6 +8,7 @@ public class Libro {
     private final String titulo;
     private final String autor;
     private final List<String> calificaciones;
+    private int cantidad;
 
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
@@ -23,7 +24,10 @@ public class Libro {
         return autor;
     }
 
-    private int cantidad;
+    public List<String> getCalificaciones() {
+        //este método permite ver las calificaciones de un libro.
+        return calificaciones;
+    }
 
     public int getCantidad() {
         return cantidad;
@@ -47,15 +51,7 @@ public class Libro {
         String comentarioAgregado = calificacion.getComentario();
         int puntuacionAgregada = calificacion.getPuntuacion();
         String puntuacionAgregadaEscrita = String.valueOf(puntuacionAgregada);
-        String calif = "¨" + puntuacionAgregadaEscrita + " - " + comentarioAgregado + "¨";
-        calificaciones.add(calif); // Agregar la calificación a la lista de calificaciones del libro
-    }
-
-    public void getCalificaciones() {
-        //este método permite ver las calificaciones de un libro.
-        System.out.println("--");
-        System.out.println("Estas son las calificaciones hechas, con puntuaciones del 1 al 5: ");
-        System.out.println("");
-        System.out.println(calificaciones);
+        String calificacionImprimible = "¨" + puntuacionAgregadaEscrita + " - " + comentarioAgregado + "¨";
+        calificaciones.add(calificacionImprimible); // Agregar la calificación a la lista de calificaciones del libro
     }
 }

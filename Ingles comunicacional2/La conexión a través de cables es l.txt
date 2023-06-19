@@ -1,0 +1,16 @@
+La conexión a través de cables es la mejor en cuanto a velocidad, pero como no siempre es posible llevarlos a todos los rincones de la casa por cuestiones de distancia, surgen estos dispositivos. 
+
+Los repetidores son dispositivos que sirven para mejorar la señal de wifi y lograr que llegue a más rincones de cierto lugar.
+
+Los repetidores funcionan como puente entre la zona donde hay cobertura y la zona donde no llega.
+
+Un repetidor tiene dos enrutadores inalambricos: el primero recoge la señal wifi existente y la transfiere al segundo para transmitirla de nuevo potenciada para que tenga mayor alcance
+__________________________________________________________________________________________________________________________
+My name is Daniela and I'm going to talk about repeaters. 
+The connection through cables is the best in terms of speed, but since it is not always possible to take them to every corner of the house due to distance issues, this devices appeared. 
+
+The repeaters were designed to improve the Wi-Fi signal and make it reach more sectors of a certain place.
+
+These devices were intended to function as a bridge between areas where there is a good signal, and those where coverage does not reach.
+
+If you are using a repeater in your house, you have to know that this is the job it did: each repeater works with two routers, the first one picked up the existing Wi-Fi signal and through antennas transferred it to the second one to transmit it boosted and get it to have more scope. Through this procedure, the repeater amplified the signal and spread it wirelessly to more corners of the house.

@@ -32,7 +32,7 @@ public class Reserva {
         } else if (estado == Estado.RETRASO) {
             estado = Estado.DISPONIBLE;
             libro.devolver();
-            cliente.reservar(libro);
+            cliente.reservar(libro, this);
         }
     }
 }
